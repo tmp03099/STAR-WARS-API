@@ -1,7 +1,17 @@
-function StarShipCard({starship}){
+import { Button } from 'react-bootstrap';
+import { getPagination } from '../sevices/pagination-api';
+
+function StarShipCard({starship, setDetail}){
+
+    const handleClick = async() =>{
+        const data = await getPagination(starship);
+        setDetail(data);
+        return data;
+    }
+
     return (
         <div>
-            <p>{starship.name}</p>
+            <Button onClick={handleClick}>{starship.name}</Button>
         </div>
     )
 }
