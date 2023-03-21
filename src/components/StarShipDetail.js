@@ -1,10 +1,11 @@
-function StarShipDetail({detail}){
+function StarShipDetail({starship}){
     
     return (
-        <div>
-            {Object.keys(detail).map((k, idx) => (
-                <p key={idx}>{k} : {detail[k]} </p>
-            ))};
+        <div className="fs-6 mt-2 detail-card">
+            <p>MGLT : {starship.MGLT}</p>
+            <p>Created : {starship.created}</p>
+            <p>Manufacturer : {starship.manufacturer}</p>
+            <p>Passengers : {starship.passengers}</p>
         </div>
     )
 }

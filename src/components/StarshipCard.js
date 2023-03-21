@@ -1,17 +1,27 @@
-import { Button } from 'react-bootstrap';
-import { getPagination } from '../sevices/pagination-api';
+import  Button  from 'react-bootstrap/Button';
+import { useState } from 'react';
+import StarShipDetail from './StarShipDetail';
 
-function StarShipCard({starship, setDetail}){
+function StarShipCard({starship}){
 
-    const handleClick = async() =>{
-        const data = await getPagination(starship);
-        setDetail(data);
-        return data;
+    const [showDetails, setDetails] = useState(false);
+
+    const handleClick = () =>{
+        if (showDetails === false) {
+            setDetails(true);
+        } else {
+            setDetails(false);
+        }
+        
     }
 
     return (
-        <div>
-            <Button onClick={handleClick}>{starship.name}</Button>
+        <div className="col-2 m-5">
+            <div className="container w-100 h-100 py-4 ">
+                <Button onClick={handleClick} variant="light" className="bg-transparent border border-0 border-bottom text-white text-bolder fs-5">{starship.name}</Button>
+                {showDetails && <StarShipDetail starship={starship}/>}
+            </div>
+            
         </div>
     )
 }
