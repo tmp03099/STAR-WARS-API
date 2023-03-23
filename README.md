@@ -2,6 +2,19 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+![image](https://user-images.githubusercontent.com/84693135/227302803-6ccbc3b8-124a-455c-892e-c59938961e15.png)
+
+## Features:
+ - Applied Star War API
+ - Show more detail when clicked the card
+ - Naviagation to the other page with Pagination
+ - Bootstrap for styling web page
+ 
+## Build With
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
+
 ## Available Scripts
 
 In the project directory, you can run:
