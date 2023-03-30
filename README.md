@@ -1,6 +1,7 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[Star Wars Website](https://starwarsapi-app.netlify.app/)
 
 ![image](https://user-images.githubusercontent.com/84693135/227302803-6ccbc3b8-124a-455c-892e-c59938961e15.png)
 
@@ -9,6 +10,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
  - Show more detail when clicked the card
  - Naviagation to the other page with Pagination
  - Bootstrap for styling web page
+ 
  
 ## Build With
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
