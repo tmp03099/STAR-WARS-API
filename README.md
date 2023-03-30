@@ -1,7 +1,9 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-[Star Wars Website](https://starwarsapi-app.netlify.app/)
+
+
+### [Star Wars Website](https://starwarsapi-app.netlify.app/)
 
 ![image](https://user-images.githubusercontent.com/84693135/227302803-6ccbc3b8-124a-455c-892e-c59938961e15.png)
 
